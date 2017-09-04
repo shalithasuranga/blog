@@ -98,7 +98,7 @@ Go to desktop and enter following commands
 
 Remove your global command using
 
-> $ npm install -g
+> $ npm uninstall -g
 
 
 Happy coding !

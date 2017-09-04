@@ -1,3 +1,5 @@
+future: true
+
 # Permalinks
 permalink:      /:year-:month-:day/:title
 

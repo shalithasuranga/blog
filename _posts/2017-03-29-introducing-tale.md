@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Introducing Tale"
-author: "Chester"
+title:  "Making global command with NodeJS"
+author: "Shalitha Suranga"
 ---
 
 Tale is minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers. It is designed and developed by [myself](https://github.com/chesterhow/) for a friend who writes short stories.

@@ -78,8 +78,7 @@ Now develop the `newhtml.js` file
     	filename = filename + '.html';
     }
     
-    
-    fs.readFile('../template.html','utf8', function(err,data){
+    fs.readFile(__dirname+'/../template.html','utf8', function(err,data){
     	fs.writeFile(process.cwd()+'/'+filename,data,'utf8',function(err, data){
     		console.log(filename+' created.');
     	});
@@ -96,7 +95,20 @@ Go to desktop and enter following commands
 >  
 > $ newhtml 
 
+Remove your global command using
+
+> $ npm install -g
+
+
 Happy coding !
+
+
+
+
+
+
+
+
 
 
 

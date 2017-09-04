@@ -10,6 +10,7 @@ I am going to develop very simple command `newhtml` that will create new html fi
 
 Very first create a new folder `newhtml` 
 
+
 > $ mkdir newhtml
 > 
 > $ cd newhtml

@@ -47,7 +47,7 @@ Create `bin` folder and touch `newhtml.js`
 > 
 > $ touch newhtml.js
 
-Thereafter we need to store the template in html file. Therefore create go back to project folder and create `template.html` with following content
+Thereafter we need to store the template in html file. Therefore go back to project folder and create `template.html` with following content
 
     <!DOCTYPE html>
     <html>

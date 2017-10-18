@@ -8,6 +8,7 @@ title:          Shalitha's Tech blog
 paginate:       5
 baseurl:        "http://shalithasuranga.me/blog"
 url:            "http://shalithasuranga.me/blog"
+homeurl:        "http://shalithasuranga.me"
 
 # Assets
 sass:

@@ -4,7 +4,7 @@ future: true
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          
+title:          Shalitha's Tech blog
 paginate:       5
 baseurl:        "http://shalithasuranga.me/blog"
 url:            "http://shalithasuranga.me/blog"

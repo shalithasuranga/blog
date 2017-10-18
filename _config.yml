@@ -6,7 +6,7 @@ permalink:      /:year-:month-:day/:title
 # Setup
 title:          
 paginate:       5
-baseurl:        ""
+baseurl:        "http://shalithasuranga.me/blog/"
 url:            "http://shalithasuranga.me/blog"
 
 # Assets

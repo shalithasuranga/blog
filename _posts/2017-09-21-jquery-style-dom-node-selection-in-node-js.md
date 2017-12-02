@@ -10,13 +10,13 @@ I used [https://github.com/cheeriojs/cheerio](cheerio) to build an awesome w3c a
 
 Special thing is that cheeriojs offers very similar working environment as same as JQuery. Then you can use css selectors to select HTML elements as you wish.
 
-#### Install Cheerio
+### Install Cheerio
 
 ```bash
 npm install cheerio --save
 ```
 
-#### Simple Example of cheerio
+### Simple Example of cheerio
 
 ```Javascript
 const cheerio = require('cheerio')

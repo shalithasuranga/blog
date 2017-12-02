@@ -10,16 +10,20 @@ I am going to develop very simple command `newhtml` that will create new html fi
 
 Very first create a new folder `newhtml` 
 
-
-> $ mkdir newhtml
-> 
-> $ cd newhtml
+```bash
+$ mkdir newhtml
+$ cd newhtml
+```
 
 Create package.json
 
-> $ npm init
+```bash
+$ npm init
+```
 
 Now I am going to modify the package.json to add my global command
+
+```Javascript
 
     {
       "name": "newhtml",
@@ -36,18 +40,21 @@ Now I am going to modify the package.json to add my global command
       }
     }
 
+```
 
 Now I mentioned that If I enter `newhtml` command anywhere I need to run the `bin/newhtml.js` script.
 
 Create `bin` folder and touch `newhtml.js`
 
-> $ mkdir bin
-> 
-> $ cd bin
-> 
-> $ touch newhtml.js
+```bash
+$ mkdir bin 
+$ cd bin 
+$ touch newhtml.js
+```
 
 Thereafter we need to store the template in html file. Therefore go back to project folder and create `template.html` with following content
+
+```html
 
     <!DOCTYPE html>
     <html>
@@ -61,8 +68,11 @@ Thereafter we need to store the template in html file. Therefore go back to proj
     	</body>
     
     </html>
+```
 
 Now develop the `newhtml.js` file
+
+```Nodejs
 
     #!/usr/bin/env node
     
@@ -84,22 +94,26 @@ Now develop the `newhtml.js` file
     		console.log(filename+' created.');
     	});
     });
-
+```
 
 Bingo! you did coding. Now We will install this as a global module. Change the directory to your project root and run npm.
 
-> $ npm install -g
+```bash
+$ npm install -g
+```
 
 Go to desktop and enter following commands
 
-> $ newhtml myhtmlPage
->  
-> $ newhtml 
+```bash
+$ newhtml myhtmlPage
+$ newhtml 
+```
 
 Remove your global command using
 
-> $ npm uninstall -g
-
+```bash
+$ npm uninstall -g
+```
 
 
 Happy coding !

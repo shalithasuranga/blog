@@ -79,10 +79,19 @@ int main (int argc, char *argv[])
 ```bash
 $ gcc helloworld.c -o helloworld `pkg-config --cflags --libs gtk+-3.0`
 ```
+`pkg-config --cflags --libs gtk+-3.0` is a bash command that outputs the flags for gtk application compilation.
 
 ### How to Execute
 
+It's same as you execute binary executables in UNIX.
 
+```bash
+./helloworld
+```
+
+For further learning I found that [GENOME Tutorial for GTK](https://developer.gnome.org/gtk-tutorial/stable/) and [This Youtube Playlist](https://www.youtube.com/watch?v=6dstft52Rbs&list=PL6A4216D6C8E00CFC) is very good.
+
+happy GTK+ coding
 
 
 

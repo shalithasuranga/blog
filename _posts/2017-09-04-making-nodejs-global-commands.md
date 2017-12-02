@@ -36,7 +36,7 @@ Now I am going to modify the package.json to add my global command
       "author": "",
       "license": "ISC",
       "bin": {
-    	"html5": "./bin/newhtml.js"
+    	"newhtml": "./bin/newhtml.js"
       }
     }
 

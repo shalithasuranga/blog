@@ -72,7 +72,7 @@ Thereafter we need to store the template in html file. Therefore go back to proj
 
 Now develop the `newhtml.js` file
 
-```Nodejs
+```Javascript
 
     #!/usr/bin/env node
     

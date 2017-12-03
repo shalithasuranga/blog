@@ -9,6 +9,7 @@ paginate:       5
 baseurl:        "http://shalithasuranga.me/blog"
 url:            "http://shalithasuranga.me/blog"
 homeurl:        "http://shalithasuranga.me"
+githubrepo:     "https://github.com/shalithasuranga/blog/"
 
 # Assets
 sass:

@@ -4,7 +4,7 @@ title:  "Drawing outline for any kind of HTML Canvas objects"
 author: "Shalitha Suranga"
 ---
 
-Creating a outline for single basic HTML canvas object is very simple since we are able to use `lineWidth` property on canvas context. 
+Creating an outline for single basic HTML canvas object is very simple since we are able to use `lineWidth` property on canvas context. 
 Where as if we need to draw outline for complex object such as combination of basic elements or png image with some transparent portions 
 we have to use another approach.
 
@@ -15,9 +15,9 @@ Pixel level manipulation can be used with [`context.getImageData()`](https://dev
 
 <img src="http://doi.ieeecomputersociety.org/cms/Computer.org/dl/trans/tc/2013/04/figures/ttc20130406311.gif" width="200"/>
 
-Very first I am saving the transparent and non-transparent details to array `A`. 
+Very first I am saving the transparent and non-transparent details to 2D array `A`. 
 
-Thereafter I am using `3x3` mask to detect edges. Mask is sliding over each pixel and if it detects transparent pixel (`a = 255`) it colors every transparent pixel and also the middle pixel. Then the array `B` will be constructed with outline details.
+Thereafter I am using `3x3` mask to detect edges. Mask is sliding over each pixel and if it detects transparent pixel (`a = 255`) it colors every transparent pixel and also the middle pixel. Then the 2D array `B` will be constructed with outline details.
 
 Eventually result will be rendered in the HTML canvas.
 

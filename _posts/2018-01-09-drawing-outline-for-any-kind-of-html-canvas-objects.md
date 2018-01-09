@@ -8,6 +8,23 @@ Creating a outline for single basic HTML canvas object is very simple since we a
 Where as if we need to draw outline for complex object such as combination of basic elements or png image with some transparent portions 
 we have to use another approach.
 
+Pixel level manipulation can be used with [`context.getImageData()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData) method which gives pixel data (`r g b a`) of entire canvas
+
+## How Masking method Works
+
+Very first I am saving the transparent and non-transparent details to array `A`. 
+
+Thereafter I am using `3x3` mask to detect edges. Mask is sliding over each pixel and if it detects transparent pixel (`a = 255`) it colors every transparent pixel and also the middle pixel. Then the array `B` will be constructed with outline details.
+
+Eventually result will be rendered in the HTML canvas.
+
+
+Source Code : [https://github.com/shalithasuranga/Canvas-Outlines-Drawing](https://github.com/shalithasuranga/Canvas-Outlines-Drawing)
+
+
+Happy Coding!!
+
+
 
 
 

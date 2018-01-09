@@ -23,7 +23,7 @@ Eventually result will be rendered in the HTML canvas.
 
 
 Source Code : [https://github.com/shalithasuranga/Canvas-Outlines-Drawing](https://github.com/shalithasuranga/Canvas-Outlines-Drawing)
-
+Working Demo : [http://shalithasuranga.me/Canvas-Outlines-Drawing/](http://shalithasuranga.me/Canvas-Outlines-Drawing/)
 
 Happy Coding!!
 

@@ -5,7 +5,7 @@ author: "Shalitha Suranga"
 ---
 
 
-[Method chaining](https://en.wikipedia.org/wiki/Method_chaining) is very useful when you have several setter type methods in a class. This technique can be used to simplify codings and reduce number of lines in the code.
+[Method chaining](https://en.wikipedia.org/wiki/Method_chaining) is very useful when you have several setter type methods in a class. This technique can be used to simplify codings and reduce number of lines in the code as well.
 
 For an instance see `Car` class below
 

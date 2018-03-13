@@ -86,7 +86,7 @@ class Car {
 }
 ```
 
- `return this` statement is added to all setter methods to return the reference of current object. Therefore we are able to use all setter methods of `Car` classa again and again.
+ `return this` statement is added to all setter methods to return the reference of current object. Therefore we are able to use all setter methods of `Car` class again and again.
  
  Therefore now we can do the same thing just by using one line.
  

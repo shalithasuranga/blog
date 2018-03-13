@@ -57,21 +57,21 @@ Now we will modifiy our `Car` class by adding chaining trick.
 class Car {
   
   constructor(id){
-  	this.id = id;
+    this.id = id;
   }
   
   setMake(make) {
-  	this.make = make;
+    this.make = make;
     return this;
   }
   
   setModel(model) {
-  	this.model = model
+    this.model = model
     return this;
   }
   
   setFuelType(fuelType) {
-  	this.fuelType = fuelType;
+    this.fuelType = fuelType;
     return this;
   }
   

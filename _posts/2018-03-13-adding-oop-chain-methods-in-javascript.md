@@ -5,7 +5,7 @@ author: "Shalitha Suranga"
 ---
 
 
-[Method chaining](https://en.wikipedia.org/wiki/Method_chaining) is very useful when you have several setter type methods in a class. This technique can be used to simplify codings and reduce number of lines in the code as well.
+[Method chaining](https://en.wikipedia.org/wiki/Method_chaining) is very useful when you have several setter type methods in a class. This technique can be used to simplify codings and to reduce number of lines in the code as well.
 
 For an instance see `Car` class below
 
@@ -39,7 +39,7 @@ class Car {
 }
 ```
 
-If we need to create new `Car` object with several properties. We usually write like this.
+If we need to create a new `Car` object with several properties. We usually write like this.
 
 ```Javascript
 let car = new Car(233);
@@ -49,7 +49,7 @@ car.setFuelType("Petrol");
 console.log(car.getCarInfo());
 ```
 
-Here the setter methods are called seperately. Thus if we have more setter like methods, eventually we will end up with more lines `car.set..`, `car.set..` etc.
+Here the setter methods are accessed seperately. Thus if we have more these setter like methods, eventually we will end up with many lines `car.set..`, `car.set..` etc.
 
 Now we will modifiy our `Car` class by adding chaining trick.
 
@@ -86,9 +86,9 @@ class Car {
 }
 ```
 
- `return this` statement is added to all setter methods to return the reference of current object. Therefore we are able to use all setter methods of `Car` class again and again.
+ `return this` statement is added to all setter methods in order to return the reference of current object. Thereafter we are able to use all setter methods of `Car` class again and again (That is why it is called methods chaining).
  
- Therefore now we can do the same thing just by using one line.
+ Therefore now we can do the same thing just by using only one line.
  
  ```Javascript
  console.log(new Car(233).setMake("Honda").setModel("Civic").setFuelType("Petrol").getCarInfo());

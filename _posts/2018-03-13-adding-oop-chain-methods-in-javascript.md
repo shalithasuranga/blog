@@ -9,7 +9,7 @@ author: "Shalitha Suranga"
 
 For an instance see `Car` class below
 
-```Javascript
+```
 class Car {
   
   constructor(id){
@@ -41,7 +41,7 @@ class Car {
 
 If we need to create a new `Car` object with several properties. We usually write like this.
 
-```Javascript
+```
 let car = new Car(233);
 car.setMake("Honda");
 car.setModel("Civic");
@@ -53,7 +53,7 @@ Here the setter methods are accessed seperately. Thus if we have more these sett
 
 Now we will modifiy our `Car` class by adding chaining trick.
 
-```Javascript
+```
 class Car {
   
   constructor(id){
@@ -90,7 +90,7 @@ class Car {
  
  Therefore now we can do the same thing just by using only one line.
  
- ```Javascript
+ ```
  console.log(new Car(233).setMake("Honda").setModel("Civic").setFuelType("Petrol").getCarInfo());
  ```
 

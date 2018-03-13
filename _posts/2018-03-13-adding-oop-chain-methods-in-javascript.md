@@ -4,6 +4,7 @@ title:  "Adding OOP chain methods in Javascript"
 author: "Shalitha Suranga"
 ---
 
+<img src="https://i.ytimg.com/vi/5rwuKH-zdos/maxresdefault.jpg" align="center" width="600">
 
 [Method chaining](https://en.wikipedia.org/wiki/Method_chaining) is very useful when you have several setter type methods in a class. This technique can be used to simplify the structure of code and to reduce number of lines in the code as well.
 

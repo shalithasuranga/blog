@@ -11,7 +11,8 @@ For an instance see `Car` class below
 
 ```Javascript
 class Car {
-	constructor(id){
+  
+  constructor(id){
   	this.id = id;
   }
   
@@ -54,7 +55,8 @@ Now we will modifiy our `Car` class by adding chain trick.
 
 ```Javascript
 class Car {
-	constructor(id){
+  
+  constructor(id){
   	this.id = id;
   }
   

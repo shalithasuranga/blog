@@ -51,7 +51,7 @@ console.log(car.getCarInfo());
 
 Here the setter methods are called seperately. Thus if we have more setter like methods, eventually we will end up with more lines `car.set..`, `car.set..` etc.
 
-Now we will modifiy our `Car` class by adding chain trick.
+Now we will modifiy our `Car` class by adding chaining trick.
 
 ```Javascript
 class Car {

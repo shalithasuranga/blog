@@ -15,7 +15,7 @@ class Car {
   	this.id = id;
   }
   
-	setMake(make) {
+  setMake(make) {
   	this.make = make;
   }
   
@@ -58,7 +58,7 @@ class Car {
   	this.id = id;
   }
   
-	setMake(make) {
+  setMake(make) {
   	this.make = make;
     return this;
   }

@@ -6,9 +6,9 @@ permalink:      /:year-:month-:day/:title
 # Setup
 title:          Shalitha's Tech blog
 paginate:       5
-baseurl:        "http://shalithasuranga.me/blog"
-url:            "http://shalithasuranga.me/blog"
-homeurl:        "http://shalithasuranga.me"
+baseurl:        "http://shalithasuranga.github.io/blog"
+url:            "http://shalithasuranga.github.io/blog"
+homeurl:        "http://shalithasuranga.github.io"
 githubrepo:     "https://github.com/shalithasuranga/blog"
 
 # Assets
@@ -22,7 +22,7 @@ markdown:       kramdown
 # About
 author:
   name:         Shalitha Suranga
-  url:          http://shalithasuranga.me/blog
+  url:          http://shalithasuranga.github.io/blog
   email:        shalithasuranga@gmail.com
 
 # Custom vars
